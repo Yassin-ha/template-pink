@@ -618,25 +618,28 @@ header nav ul li a:hover{
 .contact-us .contact .contact-input form input:first-child {
     width: 48%;
     margin-right: 20px;
+    border: 1px solid transparent;
     border-radius: 25px;
     padding: 10px 20px;
-    border: none;
     line-height: 1.5;
+    outline: none;
 }
 .contact-us .contact .contact-input form input:nth-child(2) {
     width: 48%;
+    border: 1px solid transparent;
     border-radius: 25px;
     padding: 10px 20px;
-    border: none;
     line-height: 1.5;
+    outline: none;
 }
 .contact-us .contact .contact-input form textarea {
     height: 130px;
     width: 100%;
+    border: 1px solid transparent;
     margin-top: 25px;
     padding: 15px 20px;
-    border: none;
     border-radius: 25px;
+    outline: none;
 }
 .contact-us .contact .contact-input form input[type="submit"] {
     margin-top: 30px;
@@ -652,6 +655,12 @@ header nav ul li a:hover{
 }
 .contact-us .contact .contact-input form input[type="submit"]:hover {
     background-color: var(--pink);
+}
+.contact-us .contact .contact-input form input:focus,
+.contact-us .contact .contact-input form textarea:focus {
+    background-color: #fff;
+    border-color: #80bdff;
+    box-shadow: 1px 1px 5px 1px #80bdffa3;
 }
 
 @media (max-width: 992px) {
