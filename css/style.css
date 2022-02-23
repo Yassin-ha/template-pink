@@ -478,7 +478,7 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     padding: 100px 0;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #fff;
 }
 .fun-facts .fact {
