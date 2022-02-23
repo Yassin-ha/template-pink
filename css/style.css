@@ -80,6 +80,7 @@ header .nav-bar {
     background-color: white;
     padding: 20px 25px;
     position: relative;
+    box-shadow: 1px 1px 8px 2px #e9e5e5;
 }
 header .logo {
     z-index: 2;
